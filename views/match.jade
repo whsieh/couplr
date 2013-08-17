@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  script(src='http://127.0.0.1:1337/socket.io/socket.io.js')
+  script(src='javascripts/util.js')
+  script(src='javascripts/network.js')
+  script(src='javascripts/shipr.js')
+  script(src='javascripts/jquery.blockUI.js')
+  script(src='javascripts/match-client.js')
+  script(src='javascripts/profile-client.js')
+
+  div#progress-bar
+    div
+  div#profile-button
+  div#growlUI
+  div#match-container
+    div#match
+      div#match-left
+      div#match-right
+
+    div#selections
+      svg.svg.hover#heart(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', viewbox='0 0 32 28', xml:space='preserve', enable-background='new 0 0 32 28')
+        path(d='M16 3.844C14.387 1.578 11.871 0 8.887 0 3.984 0 0 3.992 0 8.891v0.734L16.006 28 32 9.625V8.891C32 3.992 28.016 0 23.115 0 20.131 0 17.615 1.578 16 3.844z', fill='#FF3333')
+
+      svg.svg.hover#skip(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', viewbox='0 0 32 28', xml:space='preserve', enable-background='new 0 0 32 28')
+        path(d='M28 14c0-7.729-6.27-14-14-14S0 6.271 0 14C0 8.477 4.477 4 10 4s10 4.477 10 10v2h-4l8 8 8-8h-4V14z', fill='#FFB34D')
+
+      svg.svg.hover#dislike(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', width='60px', height='60px', preserveAspectRatio='xMinYMin meet', viewbox='0 3 60 60', xml:space='preserve', enable-background='new 0 0 60 60'))
+        g
+          polygon(points='56 48.5963 40.3889 33 56 17.4037 45.5963 7 30 22.6037 14.3963 7 4 17.4037 19.5963 33 4 48.5963 14.3963 59 30 43.3963 45.5963 59', fill='#33CCFF')
+
+    div#match-form
+      div.input-wrapper#left-input-wrapper
+        input#left-input(type='text')     
+      div.input-wrapper#right-input-wrapper
+        input#right-input(type='text')
+
+  div#profile-container
+    div#profile-name
+    div#rankings
+      div#rankings-left
+        svg.svg(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', viewbox='0 0 32 28', xml:space='preserve', enable-background='new 0 0 32 28')
+          path(d='M16 3.844C14.387 1.578 11.871 0 8.887 0 3.984 0 0 3.992 0 8.891v0.734L16.006 28 32 9.625V8.891C32 3.992 28.016 0 23.115 0 20.131 0 17.615 1.578 16 3.844z', fill='#FF3333')
+        div#rankings-heart
+      div#rankings-right
+        svg.svg(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', width='28px', height='28px', preserveAspectRatio='xMinYMin meet', viewbox='0 0 28 28', xml:space='preserve', enable-background='new 0 0 28 28')
+          g
+            polygon(points='28,22.398 19.594,14 28,5.602 22.398,0 14,8.402 5.598,0 0,5.602 8.398,14 0,22.398    5.598,28 14,19.598 22.398,28  ', fill='#33CCFF')
+        div#rankings-dislike

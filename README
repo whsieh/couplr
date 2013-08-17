@@ -1,0 +1,4 @@
+
+"node app" - Runs Shipr on localhost:3000
+
+On load, ~/match automatically scrapes and constructs the social network. Sends requests to Facebook to read friends' streams. After receiving the data, prunes the network and runs the eigenvector partitioning algorithm to find community structure. Creates a new Shipr object using this information. When all processing is finished, logs 'Shipr is ready' to console.
