@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"match",
+				"matches"
+			],
+			[
+				"get",
+				"getGender"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lef",
+				"left-name"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"cre",
+				"createMatch"
+			],
+			[
+				"mat",
+				"matchAllRandom"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"append",
+				"append"
+			],
+			[
+				"appen",
+				"appendMatch"
+			],
+			[
+				"app",
+				"appendMatch"
+			],
+			[
+				"read",
+				"readyMatches"
+			],
+			[
+				"pi",
+				"pictureURL"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"de",
+				"default"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/javascripts/network.js",
+			"settings":
+			{
+				"buffer_size": 24894,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/shipr.js",
+			"settings":
+			{
+				"buffer_size": 4443,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/shipr.js",
+		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/network.js",
+		"/Users/jeremybassi/Desktop/Shipr/views/match.jade",
+		"/Users/jeremybassi/Desktop/Shipr/public/stylesheets/style.css",
+		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/match-client.js",
+		"/Users/jeremybassi/Desktop/Shipr/views/about.jade",
+		"/Users/jeremybassi/Desktop/Shipr/views/index.jade",
+		"/Users/jeremybassi/Desktop/Shipr/routes/index.js",
+		"/Users/jeremybassi/Desktop/Shipr/views/layout.jade",
+		"/Users/jeremybassi/Desktop/Shipr/match-provider.js",
+		"/Users/jeremybassi/Desktop/Shipr/app.js",
+		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/util.js",
+		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/match.js",
+		"/Users/jeremybassi/Desktop/Shipr/routes/match.js",
+		"/home/whsieh/work/shipr/public/javascripts/whsieh-data.json",
+		"/home/whsieh/work/shipr/views/index.jade",
+		"/home/whsieh/work/shipr/views/match.jade",
+		"/home/whsieh/work/shipr/views/layout.jade",
+		"/home/whsieh/work/shipr/public/javascripts/numeric-1.2.6.min.js",
+		"/home/whsieh/work/shipr/node_modules/express/node_modules/connect/lib/utils.js",
+		"/home/whsieh/work/shipr/sampledata.json",
+		"/home/whsieh/work/shipr/public/javascripts/network.js",
+		"/home/whsieh/work/shipr/match-provider.js",
+		"/home/whsieh/work/shipr/package.json",
+		"/home/whsieh/work/shipr/routes/match.js",
+		"/home/whsieh/work/shipr/matchprovider.js",
+		"/home/whsieh/work/shipr/provider.js",
+		"/home/whsieh/work/shipr/shipr.sublime-project",
+		"/home/whsieh/work/shipr/shipr.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"count",
+			"matchall",
+			"Wenson",
+			"function",
+			"dij",
+			"FF6699",
+			"7AE0FF",
+			"73D9FF",
+			"66CCFF",
+			"FF6699",
+			"66CCFF",
+			"FF6666",
+			"66CCFF",
+			"left",
+			"gender",
+			"div",
+			"span",
+			"div",
+			"span",
+			"div",
+			"vote-image",
+			"\"",
+			"match-image",
+			"match",
+			"event.which",
+			"matchinfo",
+			"combine",
+			"picture",
+			"whois",
+			"matchAll",
+			"matchAllRandom",
+			"allmatches",
+			"posMatches[i]",
+			"potentialMatches",
+			"root",
+			"network",
+			"-1",
+			"(~)",
+			"3",
+			"1",
+			"1.5",
+			"a",
+			"~",
+			"('(~)",
+			"~",
+			"(~)",
+			"~",
+			"[",
+			"getMatches",
+			"			\n",
+			"matchpro",
+			"provider",
+			"Data",
+			"DataProvider"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/javascripts/network.js",
+					"settings":
+					{
+						"buffer_size": 24894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10085.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "public/javascripts/shipr.js",
+					"settings":
+					{
+						"buffer_size": 4443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1815.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.461821219393,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"netw",
+				"javascripts/network.js"
+			],
+			[
+				"inde",
+				"views/index.jade"
+			],
+			[
+				"jade",
+				"views/about.jade"
+			],
+			[
+				"lay",
+				"views/layout.jade"
+			],
+			[
+				"css",
+				"Shipr/public/stylesheets/style.css"
+			],
+			[
+				"n",
+				"javascripts/network.js"
+			],
+			[
+				"",
+				"javascripts/match-client.js"
+			],
+			[
+				"ship",
+				"javascripts/shipr.js"
+			],
+			[
+				"match",
+				"views/match.jade"
+			],
+			[
+				"ne",
+				"javascripts/network.js"
+			],
+			[
+				"shipr",
+				"javascripts/shipr.js"
+			],
+			[
+				"mat",
+				"javascripts/match-client.js"
+			],
+			[
+				"matc",
+				"views/match.jade"
+			],
+			[
+				".jade",
+				"views/index.jade"
+			],
+			[
+				"numer",
+				"javascripts/numeric-1.2.6.min.js"
+			],
+			[
+				"util",
+				"javascripts/util.js"
+			],
+			[
+				"net",
+				"javascripts/network.js"
+			],
+			[
+				"pac",
+				"shipr/package.json"
+			],
+			[
+				"match.ja",
+				"views/match.jade"
+			],
+			[
+				"packa",
+				"shipr/package.json"
+			],
+			[
+				"match-",
+				"shipr/match-provider.js"
+			],
+			[
+				"prov",
+				"shipr/provider.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}

@@ -1,19 +1,29 @@
 
-var Db = require('mongodb').Db;
-var Connection = require('mongodb').Connection;
-var Server = require('mongodb').Server;
-var BSON = require('mongodb').BSON;
-var ObjectID = require('mongodb').ObjectID;
+var mongo = require('mongodb');
 
 ShiprProvider = function(host,port,app,app_port) {
-	var self = this
-	this.db = new Db('shipr',
-		new Server(host,port,{auto_reconnect: true}),{safe:true})
-	this.db.open(function() {
+	// var self = this
+	// this.db = new Db('shipr',
+	// 	new Server(host,port,{auto_reconnect: true}),{safe:true})
+	// this.db.open(function() {
+	// 	console.log('[+] Shipr successfully connected to MongoDB!')
+	// 	console.log('[~] Deploying application...')
+	//     app.listen(app_port,function() {
+ //        	console.log('[+] Shipr is deployed on localhost:' + app.get('port'));
+ //    	})
+	// })
+	this.db = null
+	this = self
+	console.log(' - MongoURI: ' + host)
+	mongo.Db.connect(host, function(err,db) {
+		if (err) {
+			console.log('[-] Error connecting to Mongo: ' + err)
+		}
+		self.db = db
 		console.log('[+] Shipr successfully connected to MongoDB!')
 		console.log('[~] Deploying application...')
 	    app.listen(app_port,function() {
-        	console.log('[+] Shipr is deployed on localhost:' + app.get('port'));
+        	console.log('[+] Shipr is deployed on port ' + app.get('port'));
     	})
 	})
 }

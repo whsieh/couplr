@@ -1,0 +1,23 @@
+{
+	"folders":
+    [
+        {
+            "path": "/Users/jeremybassi/shipr"
+        },
+        {
+            "path": "/Users/jeremybassi/shipr/routes"
+        },
+        {
+            "path": "/Users/jeremybassi/shipr/test"
+        },
+        {
+            "path": "/Users/jeremybassi/shipr/views"
+        },
+        {
+            "path": "/Users/jeremybassi/shipr/public/javascripts"
+        },
+        {
+            "path": "/Users/jeremybassi/shipr/stylesheets"
+        }
+    ]
+}
