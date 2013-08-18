@@ -18,10 +18,8 @@ var mongoUri = process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
   'mongodb://localhost/shipr';
 
-var SOCKET_PORT = 1337
-
 var app = express();
-var io = require('socket.io').listen(SOCKET_PORT)
+var io = require('socket.io').listen(app)
 io.configure(function () { 
     io.set("transports", ["xhr-polling"])
     io.set("polling duration", 10)
@@ -29,7 +27,7 @@ io.configure(function () {
 io.set('log level', 1)
 
 app.configure(function(){
-    app.set('port', process.env.PORT || APP_PORT);
+    app.set('port', process.env.PORT);
     app.set('views', __dirname + '/views');
     app.set('view engine', 'jade');
     app.use(express.favicon());
