@@ -4,6 +4,7 @@
 */
 
 var express = require('express')
+ , app = express()
  , mongodb = require('mongodb')
  , routes = require('./routes')
  , about = require('./routes/about') // ABOUT
@@ -11,15 +12,18 @@ var express = require('express')
  , profile = require('./routes/profile') // PROFILE
  , ShiprProvider = require('./shipr-provider').ShiprProvider
  , http = require('http')
- , https = require('https')
+ , server = http.createServer(app)
+ , io = require('socket.io').listen(server)
+ // , https = require('https')
  , path = require('path');
+
 
 var mongoUri = process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
   'mongodb://localhost/shipr';
 
-var app = express.createServer();
-var io = require('socket.io').listen(app)
+// var app = express()
+// var io = require('socket.io').listen(app)
 io.configure(function () { 
     io.set("transports", ["xhr-polling"])
     io.set("polling duration", 10)
@@ -50,7 +54,7 @@ app.get('/match', match);
 app.get('/profile', profile);
 
 console.log('[~] Connecting to MongoDB...');
-app.shiprProvider = new ShiprProvider(mongoUri,app);
+app.shiprProvider = new ShiprProvider(mongoUri,app,server);
 
 io.sockets.on('connection',function(socket) {
     socket.emit('status',{msg:'connection established'})
