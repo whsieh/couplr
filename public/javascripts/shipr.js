@@ -1,6 +1,6 @@
 var matchData = {}
 var SERVER_PORT = 1337
-var socket = io.connect('http://localhost:' + SERVER_PORT)
+var socket = io.connect('http://couplr.herokuapp.com:' + SERVER_PORT)
 
 var MM=[],MF=[],FM=[],FF=[]
 var SESSIONLENGTH =  72 // in hours
