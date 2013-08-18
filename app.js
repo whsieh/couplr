@@ -14,7 +14,7 @@ var express = require('express')
  , http = require('http')
  , server = http.createServer(app)
  , io = require('socket.io').listen(server)
- // , https = require('https')
+ , https = require('https')
  , path = require('path');
 
 
