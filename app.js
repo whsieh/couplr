@@ -48,7 +48,7 @@ app.get('/match', match);
 app.get('/profile', profile);
 
 console.log('[~] Connecting to MongoDB...');
-app.shiprProvider = new ShiprProvider(mongoUri,SERVER_PORT,app);
+app.shiprProvider = new ShiprProvider(mongoUri,app);
 
 io.sockets.on('connection',function(socket) {
     socket.emit('status',{msg:'connection established'})
@@ -217,22 +217,3 @@ function validateToken(atoken,uid,callback) {
         console.log('[-] Error validating ' + uid)
     })
 }
-
-setTimeout(function() {
-    console.log('[~] Testing database...')
-    app.shiprProvider.db.collection('matches',function(err,matches) {
-        if (err) { throw err; }
-        else {
-            matches.findOne({test:'response'},function(err,res) {
-                if (err) { throw err; }
-                else {
-                    if (res != null) {
-                        console.log('[+] Test response received!')
-                    } else {
-                        console.log('[-] Test response failed.')
-                    }
-                }
-            })
-        }
-    })
-},30000)
