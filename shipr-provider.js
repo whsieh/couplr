@@ -13,7 +13,7 @@ ShiprProvider = function(host,port,app,app_port) {
  //    	})
 	// })
 	this.db = null
-	this = self
+	self = this
 	console.log(' - MongoURI: ' + host)
 	mongo.Db.connect(host, function(err,db) {
 		if (err) {
