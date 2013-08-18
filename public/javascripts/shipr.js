@@ -432,8 +432,6 @@ function getProfileData(pid) {
 				}
 			}
 		}
-		console.log(upList)
-		console.log(downList)
 		upList = upList.sort(function(a,b) {
 			return b[1] - a[1]
 		})

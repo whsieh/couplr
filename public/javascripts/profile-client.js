@@ -69,14 +69,21 @@ function injectProfile(id) {
         injectDislikeStats()
 
 		$('#profile-name').hover(function() {
-            $('#profile-name span').stop().fadeTo('fast',0,function(){
+            $('#profile-name span').stop().fadeTo(1,0,function(){
                 var stats = getStats(id)
-                var profile = '<div id="profile-name-stats"><img src="images/heart_fill.svg"/>'+stats[0]+' <img src="images/x.svg"/>'+stats[1]+'</div>'
+                var profile = '<div id="profile-name-stats"><svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'
+                + 'version="1.1" x="0px" y="0px" viewbox="0 0 32 28" xml:space="preserve" enable-background="new 0 0 32 28"><g><g>'
+                + '<path d="M16 3.844C14.387 1.578 11.871 0 8.887 0 3.984 0 0 3.992 0 8.891v0.734L16.006 28 32 9.625V8.891C32 3.992'
+                + ' 28.016 0 23.115 0 20.131 0 17.615 1.578 16 3.844z" fill="#000000"/></g></g></svg>'+stats[0]
+                + '  <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'
+                + 'version="1.1" x="0px" y="0px" viewbox="0 0 29 29" xml:space="preserve" enable-background="new 0 0 32 28"><g>'
+                + '<polygon points="28,22.398 19.594,14 28,5.602 22.398,0 14,8.402 5.598,0 0,5.602 8.398,14 0,22.398    5.598,28 14,19.598 22.398,28  "'
+                + ' fill="#000000"/></g></svg>'+stats[1]+'</div>'
                 $('#profile-name').prepend(profile)
             })
         }, function() {
             $('#profile-name-stats').remove()
-            $('#profile-name span').stop().fadeTo('fast',1)
+            $('#profile-name span').stop().fadeTo(1,1)
         })
 
         $('#rankings-heart div').click(function() {

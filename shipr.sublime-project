@@ -2,22 +2,19 @@
 	"folders":
     [
         {
-            "path": "/Users/jeremybassi/shipr"
+            "path": "~/shipr"
         },
         {
-            "path": "/Users/jeremybassi/shipr/routes"
+            "path": "~/shipr/routes"
         },
         {
-            "path": "/Users/jeremybassi/shipr/test"
+            "path": "~/shipr/views"
         },
         {
-            "path": "/Users/jeremybassi/shipr/views"
+            "path": "~/shipr/public/javascripts"
         },
         {
-            "path": "/Users/jeremybassi/shipr/public/javascripts"
-        },
-        {
-            "path": "/Users/jeremybassi/shipr/stylesheets"
+            "path": "~/shipr/public/stylesheets"
         }
     ]
 }
