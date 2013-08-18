@@ -1,7 +1,7 @@
 
 var mongo = require('mongodb');
 
-ShiprProvider = function(host,port,app,app_port) {
+ShiprProvider = function(host,app) {
 	// var self = this
 	// this.db = new Db('shipr',
 	// 	new Server(host,port,{auto_reconnect: true}),{safe:true})
@@ -22,8 +22,26 @@ ShiprProvider = function(host,port,app,app_port) {
 		self.db = db
 		console.log('[+] Shipr successfully connected to MongoDB!')
 		console.log('[~] Deploying application...')
-	    app.listen(app_port,function() {
+	    app.listen(app.get('port'),function() {
         	console.log('[+] Shipr is deployed on port ' + app.get('port'));
+        	setTimeout(function() {
+			    console.log('[~] Testing database...')
+			    app.shiprProvider.db.collection('matches',function(err,matches) {
+			        if (err) { throw err; }
+			        else {
+			            matches.findOne({test:'response'},function(err,res) {
+			                if (err) { throw err; }
+			                else {
+			                    if (res != null) {
+			                        console.log('[+] Test response received!')
+			                    } else {
+			                        console.log('[-] Test response failed.')
+			                    }
+			                }
+			            })
+			        }
+			    })
+			},2000)
     	})
 	})
 }

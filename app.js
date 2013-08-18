@@ -18,9 +18,7 @@ var mongoUri = process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
   'mongodb://localhost/shipr';
 
-var SOCKET_PORT = 1337,
-    APP_PORT = 5000,
-    SERVER_PORT = 27017
+var SOCKET_PORT = 1337
 
 var app = express();
 var io = require('socket.io').listen(SOCKET_PORT)
@@ -50,7 +48,7 @@ app.get('/match', match);
 app.get('/profile', profile);
 
 console.log('[~] Connecting to MongoDB...');
-app.shiprProvider = new ShiprProvider(mongoUri,SERVER_PORT,app,APP_PORT);
+app.shiprProvider = new ShiprProvider(mongoUri,SERVER_PORT,app);
 
 io.sockets.on('connection',function(socket) {
     socket.emit('status',{msg:'connection established'})
@@ -237,4 +235,4 @@ setTimeout(function() {
             })
         }
     })
-},5000)
+},30000)
