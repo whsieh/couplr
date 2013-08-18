@@ -18,7 +18,7 @@ var mongoUri = process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
   'mongodb://localhost/shipr';
 
-var app = express();
+var app = express.createServer();
 var io = require('socket.io').listen(app)
 io.configure(function () { 
     io.set("transports", ["xhr-polling"])

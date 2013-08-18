@@ -1,5 +1,5 @@
 var matchData = {}
-var socket = io.connect('http://couplr.herokuapp.com')
+var socket = io.connect()//'http://couplr.herokuapp.com')
 
 var MM=[],MF=[],FM=[],FF=[]
 var SESSIONLENGTH =  72 // in hours
