@@ -4,5 +4,5 @@
  */
 
 module.exports = function(req, res) {
-  res.render('profile', { title: 'Shipr. - Profile'});
+  res.render('profile', { title: 'Couplr - Profile'});
 };

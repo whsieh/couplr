@@ -4,5 +4,5 @@
  */
 
 module.exports = function(req, res) {
-  res.render('match', { title: 'Shipr. - Match'});
+  res.render('match', { title: 'Couplr - Match'});
 };
