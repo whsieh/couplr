@@ -284,6 +284,10 @@
 	padding-bottom: 2.5px;
 }
 
+#profile-name span {
+	margin-right: 15px;
+}
+
 #profile-name #profile-img {
 	position: relative;
 	top: 5px;
@@ -312,37 +316,45 @@
 	padding-bottom: 0;
 }
 
+#rankings {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#rankings #rankings-left, #rankings #rankings-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
 #rankings-left, #rankings-right {
-	display: none;
 	height: 100%;
-	width: 50%;
 	position: relative;
+	margin-top: 15px;
 }
-
-#rankings-left {
-	float: left;
-}
-
-#rankings-right {
-	float: right;
-}
-
 
 #rankings .svg {
-	height: 50px;
+	height: 10%;
 	width: 50px;
+}
+
+#profile-stats .svg {
+	position: relative;
+	top: 5px;
+	right: 2px;
+	width: 30px;
+	height: 30px;
 }
 
 #rankings-heart, #rankings-dislike {
 	overflow-y: auto;
     overflow-x: hidden;
-	position: absolute;
-	top: 65px;
-	width: 60%;
-	left: 20%;
-	bottom: 0;
+	width: 400px;
+	height: 90%;
 	border-radius: 30px 10px 10px 10px;
 	background: #EEEEEE;
+	margin-right: 25px;
 }
 
 #rankings-heart > div, #rankings-dislike > div {
@@ -394,23 +406,8 @@
 }
 /* END PROFILE */
 
-
-::-webkit-scrollbar {
-    width: 12px;
-}
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(155,155,155,0.8); 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(155,155,155,0.1); 
-}
+::-webkit-scrollbar{width:9px;height:9px;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{display:block;height:0;background-color:transparent;}
+::-webkit-scrollbar-track-piece{background-color:#FAFAFA;-webkit-border-radius:0;-webkit-border-bottom-right-radius:8px;-webkit-border-bottom-left-radius:8px;}
+::-webkit-scrollbar-thumb:vertical{height:50px;background-color:#999;-webkit-border-radius:8px;}
+::-webkit-scrollbar-thumb:horizontal{width:50px;background-color:#999;-webkit-border-radius:8px;}
