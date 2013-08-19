@@ -107,7 +107,10 @@ function injectProfile(id) {
         $('#rankings-heart div').hover(function() {
             var index = $(this).index()
             $('#rankings-heart div span').eq(index).stop().fadeTo(1,0,function(){
-                var profile = '<div id="profile-stats"><img src="images/heart_fill.svg"/> '+matchData[id][profileData.up[index][0]].up+'</div>'
+                var profile = '<div id="profile-stats"><svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'
+                + 'version="1.1" x="0px" y="0px" viewbox="0 0 32 28" xml:space="preserve" enable-background="new 0 0 32 28"><g><g>'
+                + '<path d="M16 3.844C14.387 1.578 11.871 0 8.887 0 3.984 0 0 3.992 0 8.891v0.734L16.006 28 32 9.625V8.891C32 3.992'
+                + ' 28.016 0 23.115 0 20.131 0 17.615 1.578 16 3.844z" fill="#000000"/></g></g></svg>'+matchData[id][profileData.up[index][0]].up+'</div>'
                 $('#rankings-heart div').eq(index).prepend(profile)
             })
         }, function() {
@@ -118,7 +121,10 @@ function injectProfile(id) {
         $('#rankings-dislike div').hover(function() {
             var index = $(this).index()
             $('#rankings-dislike div span').eq(index).stop().fadeTo(1,0,function(){
-                var profile = '<div id="profile-stats"><img src="images/x.svg"/> '+matchData[id][profileData.down[index][0]].down+'</div>'
+                var profile = '<div id="profile-stats"><svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'
+                + 'version="1.1" x="0px" y="0px" viewbox="0 0 29 29" xml:space="preserve" enable-background="new 0 0 32 28"><g>'
+                + '<polygon points="28,22.398 19.594,14 28,5.602 22.398,0 14,8.402 5.598,0 0,5.602 8.398,14 0,22.398    5.598,28 14,19.598 22.398,28  "'
+                + ' fill="#000000"/></g></svg>'+matchData[id][profileData.down[index][0]].down+'</div>'
                 $('#rankings-dislike div').eq(index).prepend(profile)
             })
         }, function() {
