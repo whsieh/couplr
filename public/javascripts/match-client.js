@@ -38,7 +38,9 @@ $.blockUI({ css: {
 });
  
 function loadContinuousMatches() {
-    loadMatches(100)
+    if (matches && matches.size() < 1000) {
+        loadMatches(50)
+    }
 }
  
 function getNextMatch() {
