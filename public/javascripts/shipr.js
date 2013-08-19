@@ -27,7 +27,7 @@ socket.on('get-network-resp',function(data) {
 			usePreMatches = false
 			initFromCache(data)
 			loadMatches(500)
-			setInterval(loadContinuousMatches,500)
+			setInterval(loadContinuousMatches,1000)
 		} else {
 			console.log('(+) Outdated network found (~'+floor(round(dt*100)/100)+' hour[s] ago)...update required.')
 			pastData = data

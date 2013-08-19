@@ -1,20 +1,23 @@
 {
 	"folders":
-    [
-        {
-            "path": "~/shipr"
-        },
-        {
-            "path": "~/shipr/routes"
-        },
-        {
-            "path": "~/shipr/views"
-        },
-        {
-            "path": "~/shipr/public/javascripts"
-        },
-        {
-            "path": "~/shipr/public/stylesheets"
-        }
-    ]
+	[
+		{
+			"path":"~/work/couplr/"
+		},
+		{
+			"path":"~/work/couplr/public/javascripts"
+		},
+		{
+			"path":"~/work/couplr/public/stylesheets"
+		},
+		{
+			"path":"~/work/couplr/views"
+		},
+		{
+			"path":"~/work/couplr/routes"
+		},
+		{
+			"path":"~/work/couplr/analytics"
+		}
+	]
 }

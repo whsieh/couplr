@@ -4,294 +4,62 @@
 		"selected_items":
 		[
 			[
-				"exte",
-				"extendPermissions"
-			],
-			[
-				"img",
-				"img_id"
-			],
-			[
-				"pro",
-				"profile-name"
-			],
-			[
-				"match",
-				"match-form"
-			],
-			[
-				"fade",
-				"fadeOut"
-			],
-			[
-				"emp",
-				"emptyProfile"
-			],
-			[
-				"in",
-				"injectProfile"
+				"marg",
+				"margin-left"
 			],
 			[
 				"mar",
 				"margin-right"
 			],
 			[
-				"ranking",
-				"rankings-list"
-			],
-			[
-				"tra",
-				"transitionToProfile"
-			],
-			[
-				"righ",
-				"right-name"
-			],
-			[
-				"trans",
-				"transitionToProfile"
-			],
-			[
-				"pr",
-				"profile-name"
-			],
-			[
-				"inje",
-				"injectProfile"
-			],
-			[
-				"append",
-				"append"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
-				"bor",
-				"border-radius"
-			],
-			[
-				"div",
-				"div_class"
-			],
-			[
-				"di",
-				"div_class"
-			],
-			[
-				"inj",
-				"injectHeartStats"
-			],
-			[
-				"id",
-				"id_list"
-			],
-			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"ri",
-				"right-profile"
-			],
-			[
-				"is",
-				"isMatchSection"
-			],
-			[
-				"fuc",
-				"function"
-			],
-			[
-				"dis",
-				"display"
-			],
-			[
-				"heart",
-				"heart"
-			],
-			[
-				"sta",
-				"stats"
-			],
-			[
-				"get",
-				"getStats"
-			],
-			[
-				"down",
-				"downVote"
-			],
-			[
-				"up",
-				"upVote"
-			],
-			[
-				"matc",
-				"matchData"
-			],
-			[
-				"right",
-				"right-stats"
-			],
-			[
-				"left",
-				"left"
-			],
-			[
-				"ex",
-				"extendPermissions"
-			],
-			[
-				"red",
-				"read_stream"
-			],
-			[
-				"lo",
-				"log"
-			],
-			[
-				"con",
-				"console"
-			],
-			[
-				"sugges",
-				"suggestReset"
-			],
-			[
-				"sug",
-				"suggestAnimation"
-			],
-			[
-				"app",
-				"append"
-			],
-			[
-				"fi",
-				"field-wrapper"
-			],
-			[
-				"mat",
-				"matchData"
-			],
-			[
-				"sugg",
-				"suggested"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"un",
-				"undefined"
-			],
-			[
-				"hear",
-				"heart"
-			],
-			[
-				"key",
-				"keyCode"
-			],
-			[
-				"ski",
-				"skipAnimation"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"inline",
+				"in",
 				"inline-block"
 			],
 			[
-				"FF",
-				"FFF"
+				"N",
+				"NeuralNet"
 			],
 			[
-				"ke",
-				"keyCode"
+				"for",
+				"for	for (…) {…}"
 			],
 			[
-				"ma",
-				"margin"
+				"f",
+				"for	for (…) {…} (Improved Native For-Loop)"
 			],
 			[
-				"inl",
-				"inline-block"
+				"out",
+				"outN"
 			],
 			[
-				"field",
-				"field"
+				"proto",
+				"prototype"
 			],
 			[
-				"ne",
-				"nextMatch"
+				"vali",
+				"validateToken"
 			],
 			[
-				"cur",
-				"curMatch"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"lef",
-				"left-name"
-			],
-			[
-				"pad",
-				"padding-top"
-			],
-			[
-				"cre",
-				"createMatch"
-			],
-			[
-				"re",
-				"return"
-			],
-			[
-				"border-s",
-				"border-style"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"l",
-				"log"
-			],
-			[
-				"appen",
-				"appendMatch"
-			],
-			[
-				"read",
-				"readyMatches"
-			],
-			[
-				"pi",
-				"pictureURL"
-			],
-			[
-				"de",
-				"default"
+				"match",
+				"matchinfo"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "shipr.sublime-project",
+			"file": "public/javascripts/shipr.js",
 			"settings":
 			{
-				"buffer_size": 333,
+				"buffer_size": 9852,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shipr.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 7256,
 				"line_ending": "Unix"
 			}
 		}
@@ -307,7 +75,10 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -320,43 +91,24 @@
 	},
 	"file_history":
 	[
-		"/Users/jeremybassi/shipr/routes/profile.js",
-		"/Users/jeremybassi/shipr/routes/match.js",
-		"/Users/jeremybassi/shipr/public/javascripts/match-client.js",
-		"/Users/jeremybassi/shipr/app.js",
-		"/Users/jeremybassi/shipr/shipr-provider.js",
-		"/Users/jeremybassi/shipr/public/stylesheets/main.css",
-		"/Users/jeremybassi/shipr/views/match.jade",
-		"/Users/jeremybassi/shipr/views/index.jade",
-		"/Users/jeremybassi/shipr/public/javascripts/shipr.js",
-		"/Users/jeremybassi/shipr/routes/index.js",
-		"/Users/jeremybassi/shipr/public/javascripts/connect.js",
-		"/Users/jeremybassi/shipr/public/javascripts/network.js",
-		"/Users/jeremybassi/Dropbox/shipr/public/javascripts/match-client.js",
-		"/Users/jeremybassi/shipr/public/javascripts/profile-client.js",
-		"/Users/jeremybassi/shipr/public/stylesheets/about.css",
-		"/Users/jeremybassi/shipr/views/layout.jade",
-		"/Users/jeremybassi/shipr/public/stylesheets/style.css",
-		"/Users/jeremybassi/shipr/views/about.jade",
-		"/Users/jeremybassi/shipr/public/javascripts/jquery.blockUI.js",
-		"/Users/jeremybassi/Dropbox/Shipr/public/javascripts/match-client.js",
-		"/Users/jeremybassi/shipr/public/javascripts/old.js",
-		"/Volumes/HP v125w/shipr_8-3/public/javascripts/match-client.js",
-		"/Users/jeremybassi/shipr/shipr.sublime-project",
-		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/shipr.js",
-		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/network.js",
-		"/Users/jeremybassi/Desktop/Shipr/views/match.jade",
-		"/Users/jeremybassi/Desktop/Shipr/public/stylesheets/style.css",
-		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/match-client.js",
-		"/Users/jeremybassi/Desktop/Shipr/views/about.jade",
-		"/Users/jeremybassi/Desktop/Shipr/views/index.jade",
-		"/Users/jeremybassi/Desktop/Shipr/routes/index.js",
-		"/Users/jeremybassi/Desktop/Shipr/views/layout.jade",
-		"/Users/jeremybassi/Desktop/Shipr/match-provider.js",
-		"/Users/jeremybassi/Desktop/Shipr/app.js",
-		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/util.js",
-		"/Users/jeremybassi/Desktop/Shipr/public/javascripts/match.js",
-		"/Users/jeremybassi/Desktop/Shipr/routes/match.js",
+		"/home/whsieh/work/couplr/shipr.sublime-project",
+		"/home/whsieh/work/shipr/public/javascripts/match-client.js",
+		"/home/whsieh/work/shipr/public/javascripts/network.js",
+		"/home/whsieh/work/shipr/public/javascripts/shipr.js",
+		"/home/whsieh/work/shipr/public/stylesheets/style.css",
+		"/home/whsieh/work/shipr/public/javascripts/connect.js",
+		"/home/whsieh/work/shipr/analytics/datasets/bbassi-network.json",
+		"/home/whsieh/work/test/index.html",
+		"/home/whsieh/work/test/style.css",
+		"/home/whsieh/work/neural/index.html",
+		"/home/whsieh/work/neural/neuralnet.js",
+		"/home/whsieh/work/neural/neuralnet-min.js",
+		"/home/whsieh/work/shipr/routes/index.js",
+		"/home/whsieh/work/shipr/public/javascripts/util.js",
+		"/home/whsieh/work/shipr/shipr-provider.js",
+		"/home/whsieh/work/shipr/app.js",
+		"/home/whsieh/work/shipr/match-provider.js",
+		"/home/whsieh/work/shipr/shipr.sublime-project",
 		"/home/whsieh/work/shipr/public/javascripts/whsieh-data.json",
 		"/home/whsieh/work/shipr/views/index.jade",
 		"/home/whsieh/work/shipr/views/match.jade",
@@ -364,13 +116,10 @@
 		"/home/whsieh/work/shipr/public/javascripts/numeric-1.2.6.min.js",
 		"/home/whsieh/work/shipr/node_modules/express/node_modules/connect/lib/utils.js",
 		"/home/whsieh/work/shipr/sampledata.json",
-		"/home/whsieh/work/shipr/public/javascripts/network.js",
-		"/home/whsieh/work/shipr/match-provider.js",
 		"/home/whsieh/work/shipr/package.json",
 		"/home/whsieh/work/shipr/routes/match.js",
 		"/home/whsieh/work/shipr/matchprovider.js",
 		"/home/whsieh/work/shipr/provider.js",
-		"/home/whsieh/work/shipr/shipr.sublime-project",
 		"/home/whsieh/work/shipr/shipr.sublime-workspace"
 	],
 	"find":
@@ -379,7 +128,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -389,134 +138,118 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"svg",
-			"https",
-			"port",
-			"java",
-			"APP_PORT",
-			"ERVER",
-			"host",
-			"connect",
-			".connect",
-			"provider",
-			"3000",
 			"sort",
-			"%",
-			"margin-left",
-			"10px",
-			"profile-list-stats",
-			"profile-stats",
-			".heart-rankings",
-			".dislike-rankings",
-			".heart-rankings",
-			".left",
-			".right-profile",
-			".left-profile",
-			"rankings",
-			".rankings",
-			"rankings",
-			".right",
-			".left",
-			"rankings",
-			"match-img",
-			".profile-name",
-			"right-stats",
-			"left-stats",
-			"match-stats",
-			"field",
-			"input",
-			"field",
-			"field-wrapper",
-			"second",
-			"wrapper",
-			"#second",
-			"#test2",
-			"#first",
+			"console.log(",
+			"interested_in",
+			",'",
+			"rankPart",
+			"hscore",
+			"birthday",
+			"read_stream",
+			"                            \n",
+			"SESSION",
+			"0",
+			"hscore",
+			"PreMatches",
+			"preMatches",
+			"bfs",
+			"dijkstra",
+			"TODO",
+			"shortestPaths",
+			"hscore",
+			"nw.contacts",
+			"[0]",
+			"search_id",
+			"second').val",
+			"search_id",
+			"animate",
+			"contacts[",
+			"searchSuggest",
+			"rankPartner",
+			"searchSuggest",
 			"first",
-			"test1",
-			"first",
-			"#second",
-			"#first",
-			"first",
-			"#test2",
-			"#left-input",
-			"test1",
-			".dislike",
-			".skip",
-			".heart",
-			"heart",
-			".svg",
-			".selections",
-			"profile",
-			".match",
-			".match ",
-			"#right-name",
-			"#left-name",
-			"left-name",
-			"right-name",
-			"left-name",
-			".growlUI",
-			".profile",
-			"ICON",
-			".profile",
-			"profile",
-			"match-img",
-			"extendPermissions",
-			"'fast'",
-			"up",
-			"animation",
-			"heart",
-			"2.5px 2.5px 1px #888888",
-			"getStats",
-			"injectProfile",
-			"appendMatch",
-			"landedOn",
-			"getStats",
-			"nw.rootID",
-			"slow",
-			".heart-rankings",
-			"div",
-			"<div>",
-			"append",
-			"div",
-			"svg",
-			"heart",
-			"append",
-			"profile",
-			"profile-name",
-			"left",
-			"left-stats",
-			"#left-name",
-			"match-img",
-			"'},",
-			".profile",
-			"svg",
-			",",
-			"'",
-			"profile",
-			"hover",
-			"profile",
-			"id0",
-			"var",
-			"[]",
-			"left",
-			"img",
-			"svg",
-			"left",
-			".match-stats",
-			"empty",
-			".hover",
-			"voted",
-			"css",
-			"0px 6px 6px 0px",
-			"6px 0px 0px 6px",
-			"second",
-			"matchData",
-			"200",
-			"70",
-			"65",
-			"usePreMatches",
-			".selections svg:nth-child(2)"
+			"attr('search_id",
+			"attr",
+			"getID",
+			"\"",
+			"container",
+			"item.r",
+			"id",
+			"){",
+			"				<",
+			"expander",
+			"\"",
+			"add",
+			"ADD",
+			"add",
+			"ADD",
+			"add",
+			"add00",
+			"hsize",
+			"data",
+			"m",
+			"n",
+			"evaluate",
+			"xor",
+			"XOR",
+			"xor",
+			"xor11",
+			"xor10",
+			"xor01",
+			"xor00",
+			"this.hidden",
+			"oSum",
+			"this.output",
+			"output",
+			"-=",
+			"2",
+			"xor",
+			"XOR",
+			"xor",
+			"XOR",
+			"xor",
+			"alpha",
+			"BasicNeuralNet",
+			"this.hidden.length",
+			"inputs",
+			"dScore",
+			"a",
+			"heuristic",
+			" \n",
+			"nextmatch",
+			"getnextMatch",
+			"unblockUI",
+			"width",
+			"size",
+			"image",
+			"unblock",
+			"queryNetwork",
+			"|| 100",
+			"loadMatches",
+			"/Users/jeremybassi/Desktop/Shipr",
+			"allmatches",
+			"posMatches[i]",
+			"potentialMatches",
+			"root",
+			"network",
+			"-1",
+			"(~)",
+			"3",
+			"1",
+			"1.5",
+			"a",
+			"~",
+			"('(~)",
+			"~",
+			"(~)",
+			"~",
+			"[",
+			"getMatches",
+			"			\n",
+			"matchpro",
+			"provider",
+			"Data",
+			"DataProvider"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -539,10 +272,39 @@
 			[
 				{
 					"buffer": 0,
-					"file": "shipr.sublime-project",
+					"file": "public/javascripts/shipr.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 333,
+						"buffer_size": 9852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shipr.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7256,
 						"regions":
 						{
 						},
@@ -555,9 +317,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -599,6 +360,7 @@
 		]
 	},
 	"menu_visible": true,
+	"project": "shipr.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -611,103 +373,59 @@
 		[
 			[
 				"",
-				"shipr/shipr.sublime-project"
-			],
-			[
-				"jade",
-				"/Users/jeremybassi/shipr/views/match.jade"
+				"~/work/couplr/public/javascripts/shipr.js"
 			],
 			[
 				"conn",
 				"javascripts/connect.js"
 			],
 			[
-				"match-cl",
-				"javascripts/match-client.js"
-			],
-			[
-				"main",
-				"shipr/public/stylesheets/main.css"
-			],
-			[
-				"conne",
-				"javascripts/connect.js"
-			],
-			[
-				"ne",
+				"netw",
 				"javascripts/network.js"
 			],
 			[
-				"layo",
-				"views/layout.jade"
+				"shi",
+				"javascripts/shipr.js"
 			],
 			[
 				"net",
 				"javascripts/network.js"
 			],
 			[
-				"match",
-				"views/match.jade"
-			],
-			[
-				"shio",
-				"shipr/shipr-provider.js"
-			],
-			[
-				"a",
-				"shipr/app.js"
-			],
-			[
-				"block",
-				"javascripts/jquery.blockUI.js"
-			],
-			[
-				"mat",
-				"routes/match.js"
-			],
-			[
-				"m",
-				"views/match.jade"
-			],
-			[
-				"ol",
-				"javascripts/old.js"
-			],
-			[
-				"style",
+				".css",
 				"shipr/public/stylesheets/style.css"
-			],
-			[
-				"clien",
-				"javascripts/match-client.js"
-			],
-			[
-				"netw",
-				"javascripts/network.js"
-			],
-			[
-				"inde",
-				"views/index.jade"
-			],
-			[
-				"lay",
-				"views/layout.jade"
-			],
-			[
-				"css",
-				"Shipr/public/stylesheets/style.css"
-			],
-			[
-				"n",
-				"javascripts/network.js"
-			],
-			[
-				"ship",
-				"javascripts/shipr.js"
 			],
 			[
 				"shipr",
 				"javascripts/shipr.js"
+			],
+			[
+				"match-",
+				"javascripts/match-client.js"
+			],
+			[
+				"in",
+				"routes/index.js"
+			],
+			[
+				"match-cl",
+				"javascripts/match-client.js"
+			],
+			[
+				"match-clie",
+				"javascripts/match-client.js"
+			],
+			[
+				"ut",
+				"javascripts/util.js"
+			],
+			[
+				"-pr",
+				"shipr/shipr-provider.js"
+			],
+			[
+				"matc-",
+				"shipr/match-provider.js"
 			],
 			[
 				"matc",
@@ -726,6 +444,10 @@
 				"javascripts/util.js"
 			],
 			[
+				"match",
+				"views/match.jade"
+			],
+			[
 				"pac",
 				"shipr/package.json"
 			],
@@ -738,8 +460,8 @@
 				"shipr/package.json"
 			],
 			[
-				"match-",
-				"shipr/match-provider.js"
+				"mat",
+				"routes/match.js"
 			],
 			[
 				"prov",
@@ -755,15 +477,33 @@
 		[
 			[
 				"",
-				"/Users/jeremybassi/Desktop/Shipr/shipr.sublime-project"
+				"~/work/shipr/shipr.sublime-workspace"
+			],
+			[
+				"shipr",
+				"~/work/shipr/shipr.sublime-project"
 			]
 		],
 		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 277.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
